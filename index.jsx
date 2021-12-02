@@ -16,7 +16,7 @@ wasm.then((m) => {
 		return (
 			<>
 				<div>
-					<h1>Hi there</h1>
+					<h1>Hi WebAssembly</h1>
 					<button onClick={m.big_computation}>Run Computation</button>
 				</div>
 				<div>
